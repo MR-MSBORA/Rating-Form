@@ -1,19 +1,3 @@
-/*let count=0;
-
-document.getElementById("rate1").addEventListener=((click),()=>count=1);
-    document.getElementById("rate2").addEventListener=((click),()=>{
-        console.log(count);
-        count=2;
-    });
-    document.getElementById("rate3").addEventListener=((click),()=>count=3);
-    document.getElementById("rate4").addEventListener=((click),()=>count=4);
-    document.getElementById("rate5").addEventListener=((click),()=>count=5);
-const submit=document.getElementById("submit-button");
-submit.addEventListener=((click),()=> {
-    document.getElementById("rate").innerText=count;
-});
-
-console.log(count);*/
 let count =0;
 document.getElementById("rate1").onclick=function(){count=1; };
 document.getElementById("rate2").onclick=function(){count=2; };
