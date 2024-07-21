@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color:white;
+    font-family: Overpass;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.container{
+  margin-top: 15%;
+    width: 20%;
+    display: inline;
+    padding:15px 20px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+}
+
+.icon{
+    border-radius: 50%;
+    background-color: hsl(215, 29%, 22%);
+    width: fit-content;
+    padding:10px 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.text{
+ margin: 25px 0px;
+}
+
+.text h1{
+    margin: 15px 0px 10px;
+    font-size: 23px;
+}
+.text p{
+    color:hsl(217, 12%, 63%);
+}
+
+.rating-stars{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: 700;
+}
+.rating-stars button{
+    background-color: hsl(219, 22%, 24%);
+    border: none;
+    padding:8px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.rating-stars button:hover{
+    background-color: white;
+    color: black;
+}
+.rating-stars button:active{
+    background-color: hsl(25, 97%, 53%);
+}
+.rating-stars button:focus{
+    background-color: hsl(25, 97%, 53%);
+
+}
+.rating-stars button:focus:hover{
+    background-color: hsl(25, 97%, 53%);
+    color:white;
+}
+
+.submit-button{
+    margin: 25px 0px 15px;
+   width: 100%;
+   padding: 5px 6px;
+   color: black;
+   border: none;
+   border-radius: 25px;
+   cursor: pointer;
+}
